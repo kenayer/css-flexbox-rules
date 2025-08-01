@@ -37,9 +37,13 @@ section {
 }
 
 .header-content {
+  display: flex;
+  gap: 30px;
 }
 
 .logo-search {
+  display: flex;
+  gap: 30px;
 }
 
 .logo {
@@ -50,6 +54,9 @@ section {
 }
 
 .search-bar {
+  display: flex;
+  align-content: center;
+  height: 40px;
   width: 400px;
   background: #1f1f27;
   padding: 10px 20px;
@@ -71,6 +78,8 @@ section {
 }
 
 .options {
+  display: flex;
+  gap: 30px;
 }
 
 .option {
@@ -85,6 +94,10 @@ section {
 }
 
 .categories {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
   background-color: #2b2d36;
   padding-top: 20px;
 }
@@ -111,6 +124,8 @@ section {
 }
 
 .view-options {
+  display: flex;
+  gap: 30px;
 }
 
 i.fa-th-list {
@@ -118,6 +133,8 @@ i.fa-th-list {
 }
 
 .section-control {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
 }
